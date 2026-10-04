@@ -32,8 +32,7 @@ class ProfilePage extends StatelessWidget {
             // Default: false (bar scrolls completely off screen)
             pinned: true,
 
-            // floating left off (default false) so the header only reappears
-            // by scrolling back to the top, not on a small upward flick
+            // floating left off (default false) so the header only reappears by scrolling back to the top, not on a small upward flick
             floating: false,
 
             // ---- PROPERTY 3: flexibleSpace ----

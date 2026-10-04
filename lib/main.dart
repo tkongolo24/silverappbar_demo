@@ -26,7 +26,7 @@ class ProfilePage extends StatelessWidget {
           SliverAppBar(
             // ---- PROPERTY 1: expandedHeight ----
             // Default: null (bar stays at normal toolbar height, no expansion)
-            expandedHeight: 150,
+            expandedHeight: 250,
 
             // ---- PROPERTY 2: pinned ----
             // Default: false (bar scrolls completely off screen)
@@ -42,7 +42,7 @@ class ProfilePage extends StatelessWidget {
               title: const Text('Tumba Z.M Kongolo'),
               centerTitle: true,
               background: Image.asset(
-                'assets/images/MEME.jpg',
+                'images/MEME.jpg',
                 fit: BoxFit.cover,
               ),
             ),

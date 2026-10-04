@@ -41,8 +41,8 @@ class ProfilePage extends StatelessWidget {
             flexibleSpace: FlexibleSpaceBar(
               title: const Text('Tumba Z.M Kongolo'),
               centerTitle: true,
-              background: Image.network(
-                'https://picsum.photos/800/400',
+              background: Image.asset(
+                'assets/images/MEME.jpg',
                 fit: BoxFit.cover,
               ),
             ),

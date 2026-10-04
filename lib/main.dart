@@ -26,7 +26,7 @@ class ProfilePage extends StatelessWidget {
           SliverAppBar(
             // ---- PROPERTY 1: expandedHeight ----
             // Default: null (bar stays at normal toolbar height, no expansion)
-            expandedHeight: 250,
+            expandedHeight: 150,
 
             // ---- PROPERTY 2: pinned ----
             // Default: false (bar scrolls completely off screen)
@@ -39,7 +39,7 @@ class ProfilePage extends StatelessWidget {
             // ---- PROPERTY 3: flexibleSpace ----
             // Default: null (no background/title area, just a plain bar)
             flexibleSpace: FlexibleSpaceBar(
-              title: const Text('Tumba II Z.M Kongolo'),
+              title: const Text('Tumba Z.M Kongolo'),
               centerTitle: true,
               background: Image.network(
                 'https://picsum.photos/800/400',

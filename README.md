@@ -1,4 +1,4 @@
-# silverappbar_demo
+# sliverappbar_demo
 
 A new Flutter project.
 
